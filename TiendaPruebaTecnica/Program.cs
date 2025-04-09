@@ -32,7 +32,7 @@ builder.Services.AddScoped<IRepository<DiscountProduct>, DiscountProductReposito
 
 
 builder.Services.AddScoped<IcommonService<ProductDto, ProductInsertDto, ProductUpdateDto>, ProductService>();
-builder.Services.AddScoped<IcommonService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto>, DiscountProductService>();
+builder.Services.AddScoped<IDiscountProductService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto>, DiscountProductService>();
 
 var app = builder.Build();
 

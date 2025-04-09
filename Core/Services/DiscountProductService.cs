@@ -8,7 +8,7 @@ using Domain.Models;
 
 namespace Core.Services
 {
-    public class DiscountProductService : IcommonService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto>
+    public class DiscountProductService : IDiscountProductService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto>
     {
         public List<string> Errors { get; }
         public readonly IRepository<DiscountProduct> _repository;
@@ -183,6 +183,25 @@ namespace Core.Services
             }
 
             return isValid;
+        }
+
+        public async Task<bool> SetEndDate(Guid Id)
+        {
+            var result = _repository.Find(x => x.Id == Id && x.EndDate is null).FirstOrDefault();
+            if (result is null)
+            {
+                Errors.Add(string.Format("No existe el descuento {0}", Id));
+                throw new UpdateDiscountProductFailException("Error al actualizar el descuento de producto", Errors);
+            }
+
+
+            result.EndDate = DateTime.Now;
+
+            _repository.Update(result);
+            await _repository.Save();
+
+            return true;
+
         }
     }
 }

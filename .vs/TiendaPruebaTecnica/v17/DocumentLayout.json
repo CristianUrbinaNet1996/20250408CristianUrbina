@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|c:\\users\\crist\\source\\repos\\tiendapruebatecnica\\core\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|solutionrelative:core\\irepositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|c:\\users\\crist\\source\\repos\\tiendapruebatecnica\\core\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|solutionrelative:core\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|c:\\users\\crist\\source\\repos\\tiendapruebatecnica\\core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|solutionrelative:core\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|c:\\users\\crist\\source\\repos\\tiendapruebatecnica\\core\\services\\discountproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|solutionrelative:core\\services\\discountproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|c:\\users\\crist\\source\\repos\\tiendapruebatecnica\\core\\iservices\\icommonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F99418B-DED2-4D9B-9CBA-D3F1ACC6C813}|Core\\Core.csproj|solutionrelative:core\\iservices\\icommonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BA0256F-479C-4C1E-B612-442CAC151F73}|TiendaPruebaTecnica\\TiendaPruebaTecnica.csproj|c:\\users\\crist\\source\\repos\\tiendapruebatecnica\\tiendapruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BA0256F-479C-4C1E-B612-442CAC151F73}|TiendaPruebaTecnica\\TiendaPruebaTecnica.csproj|solutionrelative:tiendapruebatecnica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "Core\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "Core\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:20:00.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\IRepositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Core\\IRepositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\IRepositories\\IRepository.cs",
+              "RelativeToolTip": "Core\\IRepositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:18:25.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IcommonService.cs",
+              "DocumentMoniker": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\IServices\\IcommonService.cs",
+              "RelativeDocumentMoniker": "Core\\IServices\\IcommonService.cs",
+              "ToolTip": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\IServices\\IcommonService.cs",
+              "RelativeToolTip": "Core\\IServices\\IcommonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:18:14.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\TiendaPruebaTecnica\\Program.cs",
+              "RelativeDocumentMoniker": "TiendaPruebaTecnica\\Program.cs",
+              "ToolTip": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\TiendaPruebaTecnica\\Program.cs",
+              "RelativeToolTip": "TiendaPruebaTecnica\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:17:37.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiscountProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\Services\\DiscountProductService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\DiscountProductService.cs",
+              "ToolTip": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\Services\\DiscountProductService.cs",
+              "RelativeToolTip": "Core\\Services\\DiscountProductService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:16:50.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Crist\\source\\repos\\TiendaPruebaTecnica\\Core\\Services\\ProductService.cs",
+              "RelativeToolTip": "Core\\Services\\ProductService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAYwGcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T20:15:48.444Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

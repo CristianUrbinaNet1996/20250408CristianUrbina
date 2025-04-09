@@ -11,8 +11,8 @@ namespace TiendaPruebaTecnica.Controllers
     public class DiscountProductController : ControllerBase
     {
 
-        private readonly IcommonService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto> _discountProdService;
-        public DiscountProductController(IcommonService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto> icommonService)
+        private readonly IDiscountProductService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto> _discountProdService;
+        public DiscountProductController(IDiscountProductService<DiscountProductDto, DiscountProductInsertDto, DiscountProductUpdateDto> icommonService)
         {
             _discountProdService = icommonService;
         }
@@ -47,8 +47,43 @@ namespace TiendaPruebaTecnica.Controllers
 
         // PUT: api/Clientes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
+        [HttpPut("EndDate/{id}")]
 
+        public async Task<ActionResult<BaseResponse<bool>>> EndDate(Guid id)
+        {
+
+            try
+            {
+                var result = await _discountProdService.SetEndDate(id);
+
+                return new BaseResponse<bool>(result)
+                {
+                    Status = true
+                };
+            }
+
+            catch (UpdateDiscountProductFailException ex)
+            {
+                return BadRequest(new BaseResponse<bool>(false)
+                {
+                    Status = false,
+                    Errors = ex.Errors,
+                    Message = ex.Message
+                });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new BaseResponse<bool>(false)
+                {
+                    Status = false,
+                    Errors = new List<string> { ex.Message },
+                    Message = "Error al actualizar el descuento del producto"
+                });
+
+            }
+
+        }
+        [HttpPut("{id}")]
         public async Task<ActionResult<BaseResponse<DiscountProductDto>>> PutDiscountProd(Guid id, DiscountProductUpdateDto cliente)
         {
             try
